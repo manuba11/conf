@@ -43,7 +43,7 @@ set nostartofline
 set history=5000
 
 "
-inoremap <silent> jj <ESC>
-nnoremap 0 1
-nnoremap $ 0
+inoremap <silent> jj <ESC> "Ctrl+[
+nnoremap 1 0
+nnoremap 0 $
 
