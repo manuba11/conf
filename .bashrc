@@ -115,7 +115,9 @@ fi
 
 eval "$(rbenv init -)"
 
-LANG=UTF-8
+#LANG=UTF-8
+export LANG=ja_JP.UTF-8
+export LANGUAGE=ja
 
 eval `ssh-agent`
 ssh-add ~/.ssh/id_rsa_github
