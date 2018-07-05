@@ -46,4 +46,4 @@ set history=5000
 inoremap <silent> jj <ESC> "Ctrl+[
 nnoremap 1 0
 nnoremap 0 $
-
+nnoremap $ 1
